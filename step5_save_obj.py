@@ -51,7 +51,7 @@ def save_obj(data_path, save_path, stitch=True):
 
 if __name__ == '__main__':
     data_path = 'output/step3'
-    save_path = 'output/step4'
+    save_path = 'output/step5'
     if not os.path.isdir(save_path):
         os.makedirs(save_path)
     # save the recovered geometry as obj files
